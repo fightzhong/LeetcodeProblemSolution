@@ -62,3 +62,5 @@ build/
 .vscode/
 log/
 log.path_IS_UNDEFINED/
+
+**/TestClass.java
