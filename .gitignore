@@ -62,5 +62,5 @@ build/
 .vscode/
 log/
 log.path_IS_UNDEFINED/
-
+.DS_Store
 **/TestClass.java
