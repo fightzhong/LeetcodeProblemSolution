@@ -1,6 +1,6 @@
 package com.fightzhong.question_51_to_100;
 
-public class lc_LengthOfLastWord {
+public class lc_0058_LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int result = 0;
 
