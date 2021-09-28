@@ -17,8 +17,8 @@ public class lc_0166_FractionToRecurringDecimal {
         String result = "";
         Map<Long, Integer> numeratorToStrLength = new HashMap<>();
         Integer circulationNumeratorLengthIndex = null;
-        long newNumerator = Math.abs(numerator);
-        long newDenominator = Math.abs(denominator);
+        long newNumerator = Math.abs((long)numerator);
+        long newDenominator = Math.abs((long)denominator);
         boolean decimal = false;
         while ( newNumerator != 0 ) {
             circulationNumeratorLengthIndex = numeratorToStrLength.get( newNumerator );
@@ -51,8 +51,6 @@ public class lc_0166_FractionToRecurringDecimal {
 
             newNumerator = remain;
         }
-
-        System.out.println( result );
 
         if ( circulationNumeratorLengthIndex != null ) {
             result = result.substring( 0, circulationNumeratorLengthIndex ) + "(" + result.substring( circulationNumeratorLengthIndex ) + ")";
