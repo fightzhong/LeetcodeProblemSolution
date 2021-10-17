@@ -1,5 +1,14 @@
 package com.fightzhong.question_151_to_200;
 
+/**
+ * 将能把26整除和不能把26整除的情况进行区分开来处理, 如果不能把26整除, 那么就模拟10进制转2进制的计算, 即:
+ *      |
+ *   26 | 31
+ *      |____
+ *        1   mod 5
+ *
+ *        1 -> A, 5 -> E, 得到结果AE
+ */
 public class lc_0168_ExcelSheetColumnTitle {
     private final String[] data = new String[] {
             "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
